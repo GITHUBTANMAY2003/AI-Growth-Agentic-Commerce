@@ -1,0 +1,15 @@
+source: sql
+mapping:
+  id: id
+  title: title
+  price: price
+  description: description
+  categories: categories
+sql:
+  encrypted_url: gAAAAABqjajmQhzSWaa6WuXpDuT0Ii9z5b09ixX_idO-BwCaTY8SxUiUc0WuT4puGzlaV51-OhWjX_Mok6ZO6cjb2trCUjOEFo3wC9x6fmbw7O-gb6KBVbNH7kOLmpS0kx5WhoYTGhai8myOW8WOtxZzrECnsdIVm3AIav7vSlw5ZsGapWy3c98=
+  query: "SELECT\n    vendor_sku AS id,\n    vendor_item_name AS title,\n    cost\
+    \ AS price,\n    long_blurb AS description,\n    dept_path AS categories,\n  \
+    \  stock_qty AS stock\nFROM vendor_catalog"
+  table: vendor_catalog
+  id_column: vendor_sku
+  stock_column: stock_qty

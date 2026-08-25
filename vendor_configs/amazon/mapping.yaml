@@ -1,0 +1,7 @@
+source: amazon
+mapping:
+  id: parent_asin
+  title: title
+  price: price
+  categories: categories
+  description: description
