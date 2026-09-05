@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Operate your agent-native {{ app_name }} storefront." />
-    <meta name="theme-color" content="#103f31" />
+    <meta name="theme-color" content="#0a0d0b" />
     <title>{{ app_name }} · Control plane</title>
     <link rel="stylesheet" href="{{ static_root }}/app.css" />
     <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
@@ -40,7 +40,7 @@
             <span aria-hidden="true">{ }</span><span>Agent site</span>
           </button>
           <button class="nav-item" type="button" data-view="chat">
-            <span aria-hidden="true">✦</span><span>Chat</span>
+            <span aria-hidden="true">✦</span><span>AI Buyer</span>
           </button>
           <button class="nav-item" type="button" data-view="activity">
             <span aria-hidden="true">◷</span><span>Activity</span>
@@ -271,7 +271,7 @@
 
           <section class="view chat-view" id="view-chat" data-page="chat" aria-labelledby="chat-title" hidden>
             <div class="section-heading chat-heading">
-              <div><p class="eyebrow">Shopping assistant</p><h1 id="chat-title">Chat</h1></div>
+              <div><p class="eyebrow">Live catalog · Grounded answers · Explicit spend gate</p><h1 id="chat-title">AI Buyer</h1></div>
               <span class="mode-chip" id="chat-mode">Ready</span>
             </div>
             <div class="chat-layout">
@@ -292,7 +292,7 @@
                 </div>
               </section>
               <aside class="panel context-panel" aria-labelledby="context-title">
-                <p class="kicker">Store</p><h2 id="context-title">Store context</h2>
+                <p class="kicker">Commerce state</p><h2 id="context-title">Live Commerce State</h2>
                 <div id="chat-context" class="state-slot"></div>
               </aside>
             </div>
